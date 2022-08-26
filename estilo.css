@@ -1,0 +1,91 @@
+
+.titulo {
+    color: black;
+    margin-left: 13%;
+    font-family: serif;
+    font-size: 35px;
+}
+.subtitulo {
+    color: black;
+    margin-left: 18%;
+    font-size: 20px;
+}
+body {
+    color: black;
+    top: 100px;
+    background-image: url(/Formulario-rh-main/rh.png);
+    font-family: serif;
+    margin-left: 30%;
+    margin-top: 2%;
+    justify-content: center;
+    height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+.main {
+    justify-content: center;
+    left: 2;
+    backdrop-filter: blur(10px);
+}
+input, select, textarea, button {
+    border-radius: 5px;
+}
+.campo {
+    margin-bottom: 1em;
+    text-align: center;
+}
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+fieldset {
+    float: left;
+    position: relative;
+    margin-right: 1em;
+    border-radius: 20px;
+    right: 100px;
+    backdrop-filter: blur(10px);
+}
+.campo {
+    padding: 0.2em;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px gray;
+    display: block;
+}
+.campo, select, option {
+    padding-right: 1em;
+}
+.botao:hover {
+    background: orange;
+}
+.button {
+    text-align: center;
+}
+.botao {
+    text-align: center;
+    font-size: 1em;
+    background: black ;
+    border: 0;
+    margin-bottom: 1em;
+    box-shadow: 2px 2px 2px gray;
+    text-shadow: 1px 1px 1px ;
+    color: white;
+    margin-top: 1em;
+}
+
+.grupo {
+    backdrop-filter: blur(100px);
+}
+.form {
+    background: #ffffff10;
+    border: 2px solid #ffffff30;
+}
+.checkbox {
+    font-size: 16px;
+    position: relative;
+    left: 0px;
+    
+}
+.obs {
+    top: 2px;
+}

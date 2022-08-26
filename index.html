@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de candidatos</title>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="titulo">Cadastro dos candidatos</h1>
+        <p class="subtitulo">Preencha seus dados</p>
+    </div>
+    <form class="form">
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" name="nome" id="nome" required placeholder="Digite seu nome:">
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required placeholder="Digite seu segundo nome:">
+            </div>
+
+            <div class="campo">
+                <label for="email"><strong>E-mail:</strong></label>
+                <input type="text" name="email" id="email" required placeholder="Digite seu melhor e-mail:">
+            </div>
+
+            <div class="campo">
+                <label for="telefone"><strong>Telefone:</strong></label>
+                <input type="text" name="telefone" id="telefone" required placeholder="Digite seu telefone:">
+            </div>
+
+            <div class="campo">
+                <label for="Endereço"><strong>Endereço:</strong></label>
+                <input type="text" name="endereço" id="endereço" required placeholder="Digite seu endereço:">
+            </div>
+
+            <div class="campo">
+                <label for="Qualificações"><strong>Qualificações:</strong></label>
+                <input type="text" name="qualificações" id="qualificações" required placeholder="Qualificações para a vaga">
+            </div>
+            
+            <div class="campo">
+                <label for="Vaga"> Tipo de Vaga</label required>
+                <select id="Vagas">
+                    <option selected disabled value="">Qual a vaga pretendida</option>
+                    <option>Técnico de Informática</option>
+                    <option>Chefe de Divisão</option>
+                    <option>Desenvolvedor em JS</option>
+                    <option>Desenvolvedor em HTML</option>
+                    <option>Desenvolvedor em CSS</option>
+                </select>
+            </div>
+
+            <fieldset class="checkbox">
+                <div id="checkbox">
+                    <label> Seleciona sua escolaridade</label>
+                    <input type="checkbox" id="fundamental">
+                    <label for="fundamental">Ensino Médio Incompleto</label>
+                    <input type="checkbox" id="fundamental1">
+                    <label for="fundamental1">Ensino Médio Completo</label>
+                    <input type="checkbox" id="superior incompleto">
+                    <label for="superior incompleto">Superior Incompleto</label>
+                    <input type="checkbox" id="superior">
+                    <label for="superior">Superior</label>
+                    <input type="checkbox" id="posgraduacao">
+                    <label for="posgraduacao">Pós Graduação</label>
+                </div>
+                </fieldset>
+
+                <div class="obs">
+                <label for="Observações" class="caixa">Algo mais ? insira aqui:</label>
+                <textarea rows="3" style="width: 48em;" id="observacoes" name=observacoes></textarea>
+                </div>
+                <div class="button">
+                <button class="botao" type="submit"> <strong>Concluir</strong></button>
+                </div>
+    </form>
+</body>
+</html>
